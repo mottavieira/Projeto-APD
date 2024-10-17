@@ -1,0 +1,41 @@
+{
+  "data": [
+    {
+      "id": "17895695668004550",
+      "caption": "A beautiful sunset!",
+      "media_type": "IMAGE",
+      "media_url": "https://example.com/sunset.jpg",
+      "permalink": "https://www.instagram.com/p/abc123/",
+      "like_count": 150,
+      "comments_count": 10,
+      "timestamp": "2024-10-16T12:34:56+0000"
+    },
+    {
+      "id": "17895574804004549",
+      "caption": "Having a great time at the beach.",
+      "media_type": "IMAGE",
+      "media_url": "https://example.com/beach.jpg",
+      "permalink": "https://www.instagram.com/p/xyz456/",
+      "like_count": 230,
+      "comments_count": 25,
+      "timestamp": "2024-10-15T11:00:00+0000"
+    },
+    {
+      "id": "17893474899012345",
+      "caption": "Exploring the mountains!",
+      "media_type": "VIDEO",
+      "media_url": "https://example.com/mountains.mp4",
+      "permalink": "https://www.instagram.com/p/qwe789/",
+      "like_count": 300,
+      "comments_count": 40,
+      "timestamp": "2024-10-14T09:45:00+0000"
+    }
+  ],
+  "paging": {
+    "cursors": {
+      "before": "QWERTY12345",
+      "after": "ZXCVB67890"
+    },
+    "next": "https://graph.instagram.com/me/media?access_token=ACCESS_TOKEN&limit=3&after=ZXCVB67890"
+  }
+}
